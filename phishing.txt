@@ -1,0 +1,4 @@
+Dear customer,
+we've detected unusual activity on your account. verify verify verify verify
+To maintain the security of your account, please verify your login and update your personal information.
+Failure to do so may result in account suspension.Click on the following link to confirm your identity and ensure the safety of your financial information: https://fakephishingsite.com
