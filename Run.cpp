@@ -3,6 +3,7 @@
 #include <cstring>
 #include <sstream>
 #include <fstream>
+#include "Memory.cpp"
 using namespace std;
 
 void binaryPrint(int n, string s = ""){
@@ -21,35 +22,10 @@ void binaryPrint(int n, string s = ""){
 }
 
 
-// void stoin(){
-
-// }
-
-// void Hexa_Bin(string s){
-//     for(int i = 0; i < s.size(); ++i){
-//         if(stoi("5"));
-
-//     }
-    
-// }
-
-void readfile(string path) {
-
-    ifstream inputfile(path);
-      if (!inputfile.is_open()){
-        cerr << "Failed to open the file\n";
-        return;
-    }
-
-    string line;
-    while (getline(inputfile, line)){
-        cout << line << endl;
-    }
-}
-
 int main() {
-    string s; cin >> s;
-    readfile(s);
+    Memory mem;
+    mem.load_instructions("phishing.txt");
+    
 
 
     return 0;
