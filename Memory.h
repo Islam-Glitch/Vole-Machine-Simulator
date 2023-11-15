@@ -1,25 +1,24 @@
-// BigReal.h
-#ifndef VoleMachine_H
-#define VoleMachine_H
-
-#include <iostream>
+#ifndef ___VOLEMACHINE_MEMORY_H
+#define ___VOLEMACHINE_MEMORY_H
 #include <string>
 #include <map>
 using namespace std;
 
-
-
-
 class Memory {
 private:
     map <string, string> Memory_Cells;
-    int number_of_inst{};
+    int number_of_instructions{};
 
 public:
+    Memory();
+    void load_instructions(const string& path);
+    static string decimalToHexa(const int& dec);
+    void clearMemory();
     friend class VoleMachine;
-    void load_instructions(string path);
-    string decimal_to_hexa(int dec);
-
+    friend class MainWindow;
+    string getState() const;  // Add this method
+    int getInstructionCount() const;
+    string getContentAsString() const;
 };
 
-#endif
+#endif //___VOLEMACHINE_MEMORY_H
