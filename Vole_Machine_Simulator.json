@@ -1,0 +1,281 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V575",
+      "cwe": 628,
+      "sastId": "CERT-EXP37-C",
+      "level": 3,
+      "positions": [
+        {
+          "file": "C:\\Program Files\\JetBrains\\CLion 2023.2.1\\bin\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include\\c++\\x86_64-w64-mingw32\\bits\\c++locale.h",
+          "line": 62,
+          "endLine": 62,
+          "column": 1,
+          "endColumn": 1,
+          "navigation": {
+            "previousLine": 264495,
+            "currentLine": 270903132,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "The potential null pointer is passed into \u0027__builtin_strcmp\u0027 function. Inspect the first argument.",
+      "projects": [
+        ""
+      ],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1003",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "C:\\Program Files\\JetBrains\\CLion 2023.2.1\\bin\\mingw\\x86_64-w64-mingw32\\include\\_mingw_mac.h",
+          "line": 232,
+          "endLine": 232,
+          "column": 1,
+          "endColumn": 1,
+          "navigation": {
+            "previousLine": 3558393,
+            "currentLine": -772335563,
+            "nextLine": -54518241,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "The macro \u0027__MINGW_MSC_PREREQ\u0027 is a dangerous expression. The parameters \u0027major\u0027, \u0027minor\u0027 must be surrounded by parentheses.",
+      "projects": [
+        ""
+      ],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V797",
+      "cwe": 253,
+      "sastId": "CERT-EXP12-C",
+      "level": 1,
+      "positions": [
+        {
+          "file": "C:\\Program Files\\JetBrains\\CLion 2023.2.1\\bin\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include\\c++\\bits\\basic_string.tcc",
+          "line": 740,
+          "endLine": 740,
+          "column": 1,
+          "endColumn": 1,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1024930255,
+            "nextLine": 355905,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "The \u0027find\u0027 function is used as if it returned a bool type. The return value of the function should probably be compared with std::string::npos.",
+      "projects": [
+        ""
+      ],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V755",
+      "cwe": 123,
+      "sastId": "CERT-STR31-C",
+      "level": 2,
+      "positions": [
+        {
+          "file": "C:\\Program Files\\JetBrains\\CLion 2023.2.1\\bin\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include\\c++\\istream",
+          "line": 943,
+          "endLine": 943,
+          "column": 1,
+          "endColumn": 1,
+          "navigation": {
+            "previousLine": 5589178,
+            "currentLine": -1035034315,
+            "nextLine": 43,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "Copying potentially tainted data from \u0027___in\u0027 to buffer \u0027__s\u0027. Buffer overflow is possible.",
+      "projects": [
+        ""
+      ],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V797",
+      "cwe": 253,
+      "sastId": "CERT-EXP12-C",
+      "level": 1,
+      "positions": [
+        {
+          "file": "C:\\Program Files\\JetBrains\\CLion 2023.2.1\\bin\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include\\c++\\bits\\basic_string.tcc",
+          "line": 757,
+          "endLine": 757,
+          "column": 1,
+          "endColumn": 1,
+          "navigation": {
+            "previousLine": 1134932615,
+            "currentLine": 515213491,
+            "nextLine": 178033,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "The \u0027find\u0027 function is used as if it returned a bool type. The return value of the function should probably be compared with std::string::npos.",
+      "projects": [
+        ""
+      ],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V755",
+      "cwe": 123,
+      "sastId": "CERT-STR31-C",
+      "level": 2,
+      "positions": [
+        {
+          "file": "C:\\Program Files\\JetBrains\\CLion 2023.2.1\\bin\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include\\c++\\istream",
+          "line": 937,
+          "endLine": 937,
+          "column": 1,
+          "endColumn": 1,
+          "navigation": {
+            "previousLine": 22359471,
+            "currentLine": -1035034315,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "Copying potentially tainted data from \u0027___in\u0027 to buffer \u0027__s\u0027. Buffer overflow is possible.",
+      "projects": [
+        ""
+      ],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1059",
+      "cwe": 0,
+      "sastId": "CERT-DCL51-CPP",
+      "level": 3,
+      "positions": [
+        {
+          "file": "C:\\Program Files\\JetBrains\\CLion 2023.2.1\\bin\\mingw\\x86_64-w64-mingw32\\include\\wchar.h",
+          "line": 364,
+          "endLine": 364,
+          "column": 1,
+          "endColumn": 1,
+          "navigation": {
+            "previousLine": 1735468586,
+            "currentLine": 1489368640,
+            "nextLine": 180744423,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "The \u0027iswalpha\u0027 macro name overrides a reserved name from C standard. This may lead to undefined behavior.",
+      "projects": [
+        ""
+      ],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V667",
+      "cwe": 480,
+      "sastId": "CERT-ERR50-CPP",
+      "level": 3,
+      "positions": [
+        {
+          "file": "C:\\Program Files\\JetBrains\\CLion 2023.2.1\\bin\\mingw\\lib\\gcc\\x86_64-w64-mingw32\\13.1.0\\include\\c++\\bits\\basic_ios.h",
+          "line": 170,
+          "endLine": 170,
+          "column": 1,
+          "endColumn": 1,
+          "navigation": {
+            "previousLine": 1485717328,
+            "currentLine": 855209435,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "The \u0027throw\u0027 operator does not possess any arguments and is not situated within the \u0027catch\u0027 block.",
+      "projects": [
+        ""
+      ],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V519",
+      "cwe": 563,
+      "sastId": "CERT-MSC13-C",
+      "level": 2,
+      "positions": [
+        {
+          "file": "F:\\aaaaaahhh\\Vole-Machine-Simulator\\VoleMachine.cpp",
+          "line": 72,
+          "endLine": 72,
+          "column": 1,
+          "endColumn": 1
+        },
+        {
+          "file": "F:\\aaaaaahhh\\Vole-Machine-Simulator\\VoleMachine.cpp",
+          "line": 73,
+          "endLine": 73,
+          "column": 1,
+          "endColumn": 1,
+          "navigation": {
+            "previousLine": -459278140,
+            "currentLine": 1771907678,
+            "nextLine": -459278132,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "The \u0027decodedContent\u0027 variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 72, 73.",
+      "projects": [
+        ""
+      ],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1059",
+      "cwe": 0,
+      "sastId": "CERT-DCL51-CPP",
+      "level": 3,
+      "positions": [
+        {
+          "file": "C:\\Program Files\\JetBrains\\CLion 2023.2.1\\bin\\mingw\\x86_64-w64-mingw32\\include\\wchar.h",
+          "line": 365,
+          "endLine": 365,
+          "column": 1,
+          "endColumn": 1,
+          "navigation": {
+            "previousLine": 1489368640,
+            "currentLine": 180744423,
+            "nextLine": -490343115,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "The \u0027iswupper\u0027 macro name overrides a reserved name from C standard. This may lead to undefined behavior.",
+      "projects": [
+        ""
+      ],
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}
